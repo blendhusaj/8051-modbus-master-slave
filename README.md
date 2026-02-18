@@ -14,12 +14,6 @@ Keil projects are in `Keil/`:
 
 Optional simulation files are in `Proteus/`.
 
-If you want images on GitHub, add screenshots to `docs/images/` and link them in the README. A good set is:
-- `docs/images/proteus-topology.png` (overall bus + nodes)
-- `docs/images/slave1-button.png` (button wiring / coils)
-- `docs/images/slave2-adc0804.png` (ADC0804 + pot wiring)
-- `docs/images/slave3-pwm.png` (PWM lamp wiring)
-
 ## Requirements (what you need)
 
 - Keil µVision (8051 toolchain) to build the `.hex`
