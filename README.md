@@ -14,6 +14,10 @@ Keil projects are in `Keil/`:
 
 Optional simulation files are in `Proteus/`.
 
+Proteus simulation view:
+
+![Proteus simulation](docs/images/proteus_view.png)
+
 ## Requirements (what you need)
 
 - Keil µVision (8051 toolchain) to build the `.hex`
