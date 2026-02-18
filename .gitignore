@@ -1,0 +1,30 @@
+# Root: exclude everything except README, .gitignore, Keil/, Proteus/, Documents/
+*.c
+*.bat
+*.json
+Share File/
+Master_FW.txt
+Slave1_FW.txt
+Slave2_FW.txt
+Slave3_FW.txt
+.vscode/
+
+# Keil build outputs
+**/Objects/
+**/Listings/
+*.lnp
+*.build_log.htm
+*._ia
+
+# Keil user/IDE (machine-specific)
+*.uvgui.*
+*.uvopt
+*.workspace
+
+# Proteus backups
+**/Project Backups/
+*.workspace
+
+# Documents: exclude full report, keep only references
+Documents/*.pdf
+Documents/*.docx
